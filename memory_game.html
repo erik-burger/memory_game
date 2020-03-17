@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="memory_game.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+    <div class="page">
+        <div class="start" id="start">
+            <h1>Wellcome to my very first website!</h1>
+            <button class="btn" onclick="hideshow('start','game')">Play the game</button>
+        </div>
+        <div id="game" style="display: none;">
+            <div class="color_box" id="color_box">
+                <p id="success"></p>
+                <p id="timer"></p>
+            </div>
+            <div class="col_btn">
+                <button class="btn red" onclick="addAnswer('red')">RED</button>
+                <button class="btn green" onclick="addAnswer('green')">GREEN</button>
+                <button class="btn blue" onclick="addAnswer('blue')">BLUE</button>
+                <button class="btn yellow" onclick="addAnswer('yellow')">YELLOW</button>
+                <button class="btn start" onclick="start()" id="start_button">START</button>
+            <button class="btn done" onclick="correction()" id="done" style="display: none;">DONE</button>
+            </div>           
+        </div>
+        <div id="fail" class="fail" style="display: none;">
+            You got <p id="points" style="display:inline"></p> points
+            <button class="btn restart" onclick="restart()">RESTART</button>
+
+        </div>
+    </div>
+</body>
+<script type="text/javascript" src="memory_game.js"></script>
+</html>
