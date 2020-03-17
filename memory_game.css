@@ -1,0 +1,88 @@
+body {margin:0;}
+body{
+    background-color: gray;
+}
+.start {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 40px;
+}
+
+.page {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.fail{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 40px;
+}
+
+.color_box{
+    height: 300px;
+    width: 40%;
+    margin-left: 30%;
+    margin-right: 30%;
+    background-color:gray;
+    border:3px solid black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 40px;
+    color: lightgreen;
+}
+
+.col_btn{
+    width: 30‰;
+    margin-left: 35%;
+    margin-right: 35%;
+}
+
+.btn{
+    border:1px solid black;
+    height: 30px;
+    margin: 10px;
+    font-size: 15px;
+    margin-left: 30%;
+    margin-right: 30%;
+    width: 40%;
+}
+.btn:hover {
+    background-color: black;
+    color: white;
+}
+.btn:active {
+    transform: scale(1.1);
+}
+.btn:focus {outline:0;}
+
+.red {
+    background-color: red;
+    width: 40%;
+}
+.red:hover {
+    background-color: darkred;
+    color: white;
+  }
+.green{
+    background-color: green;
+    width: 40%;
+}
+.green:hover {
+    background-color: darkgreen;
+    color: white;
+  }
+.blue{
+    background-color: blue;
+    width: 40%;
+}
+.blue:hover {
+    background-color: darkblue;
+    color: white;
+  }
+.yellow{
+    background-color: yellow;
+    width: 40%;
+}
+.yellow:hover {
+    background-color: #999900;
+    color: white;
+  }
