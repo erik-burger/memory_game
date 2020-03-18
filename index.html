@@ -6,11 +6,15 @@
 </head>
 <body>
     <div class="page">
-        <div class="start" id="start">
-            <h1>Wellcome to my very first website!</h1>
-            <button class="btn" onclick="hideshow('start','game')">Play the game</button>
+        <div class="back">
+            <div class="start" id="start">
+                <h1>Wellcome to my very first website!</h1>
+                <button class="btn" onclick="hideshow('start','game')">Play the game</button>
+            </div>
         </div>
+        <div class="back">
         <div id="game" style="display: none;">
+            <br>
             <div class="color_box" id="color_box">
                 <p id="success"></p>
                 <p id="timer"></p>
@@ -21,13 +25,16 @@
                 <button class="btn blue" onclick="addAnswer('blue')">BLUE</button>
                 <button class="btn yellow" onclick="addAnswer('yellow')">YELLOW</button>
                 <button class="btn start" onclick="start()" id="start_button">START</button>
-            <button class="btn done" onclick="correction()" id="done" style="display: none;">DONE</button>
-            </div>           
+                <button class="btn done" onclick="correction()" id="done" style="display:none;">DONE</button>
+                <br>
+            </div>   
+            </div>        
         </div>
-        <div id="fail" class="fail" style="display: none;">
-            You got <p id="points" style="display:inline"></p> points
-            <button class="btn restart" onclick="restart()">RESTART</button>
-
+        <div class="back">
+            <div id="fail" class="fail" style="display: none;">
+                You got <p id="points" style="display:inline"></p> points
+                <button class="btn restart" onclick="restart()">RESTART</button>
+            </div>
         </div>
     </div>
 </body>
